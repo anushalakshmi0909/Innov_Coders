@@ -13,7 +13,7 @@ import {
   Paper,
 } from "@mui/material";
 
-const StudentPage = () => {
+const Students = () => {
   const [students, setStudents] = useState([
     { id: 1, name: "John Doe", rollNo: "123", department: "CSE" },
   ]);
@@ -80,4 +80,4 @@ const StudentPage = () => {
   );
 };
 
-export default StudentPage;
+export default Students;
