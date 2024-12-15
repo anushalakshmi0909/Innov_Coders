@@ -1,0 +1,61 @@
+
+
+/* General Layout */
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f5e9;
+  padding: 20px;
+}
+
+/* Form Styling */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.register-form {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.register-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
