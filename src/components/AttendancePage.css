@@ -1,0 +1,64 @@
+.attendance-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .attendance-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .attendance-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .attendance-card h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .attendance-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .attendance-card li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .attendance-card li:last-child {
+    border-bottom: none;
+  }
+  
+  .stats {
+    margin-left: 10px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .name {
+    color: #333;
+    font-weight: bold;
+  }
+  

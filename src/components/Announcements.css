@@ -1,0 +1,26 @@
+.content {
+    padding: 20px;
+  }
+  
+  .announcements-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .announcement {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .announcement h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .announcement p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

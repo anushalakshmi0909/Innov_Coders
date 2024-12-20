@@ -1,0 +1,18 @@
+.content {
+    padding: 20px;
+  }
+  
+  .settings-container {
+    margin-top: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .selected-option {
+    margin-top: 10px;
+    color: #007bff;
+  }
+  

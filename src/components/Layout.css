@@ -1,0 +1,10 @@
+.layout {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 250px; 
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  

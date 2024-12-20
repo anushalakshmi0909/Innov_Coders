@@ -1,0 +1,16 @@
+.content {
+    padding: 20px;
+  }
+  
+  .faq-section .faq {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .faq-section h4 {
+    margin: 0 0 5px 0;
+  }
+  

@@ -110,6 +110,10 @@ const MarksPage = () => {
                 ))}
               </tbody>
             </table>
+            {/* Added Cancel Button */}
+            <button className="cancel-button" onClick={handleCloseReport}>
+              Cancel
+            </button>
           </div>
         </div>
       )}
